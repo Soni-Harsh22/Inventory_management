@@ -1,0 +1,349 @@
+2025-05-08 00:26:50.233 +05:30 [INF] Starting up the application...
+2025-05-08 00:26:50.460 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-05-08 00:26:50.521 +05:30 [DBG] Hosting starting
+2025-05-08 00:26:50.538 +05:30 [INF] User profile is available. Using 'C:\Users\harsh.soni\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-08 00:26:50.550 +05:30 [DBG] Reading data from file 'C:\Users\harsh.soni\AppData\Local\ASP.NET\DataProtection-Keys\key-7682999c-ba54-4834-9234-6e14b4f917ea.xml'.
+2025-05-08 00:26:50.556 +05:30 [DBG] Reading data from file 'C:\Users\harsh.soni\AppData\Local\ASP.NET\DataProtection-Keys\key-c2a9c552-adb3-4ae1-a785-346d7a880365.xml'.
+2025-05-08 00:26:50.561 +05:30 [DBG] Found key {7682999c-ba54-4834-9234-6e14b4f917ea}.
+2025-05-08 00:26:50.565 +05:30 [DBG] Found key {c2a9c552-adb3-4ae1-a785-346d7a880365}.
+2025-05-08 00:26:50.570 +05:30 [DBG] Considering key {c2a9c552-adb3-4ae1-a785-346d7a880365} with expiration date 2025-08-03 05:21:53Z as default key.
+2025-05-08 00:26:50.574 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-05-08 00:26:50.577 +05:30 [DBG] Decrypting secret element using Windows DPAPI.
+2025-05-08 00:26:50.579 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-05-08 00:26:50.586 +05:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-05-08 00:26:50.588 +05:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-05-08 00:26:50.591 +05:30 [DBG] Using key {c2a9c552-adb3-4ae1-a785-346d7a880365} as the default key.
+2025-05-08 00:26:50.593 +05:30 [DBG] Key ring with default key {c2a9c552-adb3-4ae1-a785-346d7a880365} was loaded during application startup.
+2025-05-08 00:26:50.598 +05:30 [DBG] Middleware loaded
+2025-05-08 00:26:50.600 +05:30 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16535 B).
+2025-05-08 00:26:50.602 +05:30 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-05-08 00:26:50.644 +05:30 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-05-08 00:26:50.690 +05:30 [INF] Now listening on: https://localhost:7150
+2025-05-08 00:26:50.692 +05:30 [INF] Now listening on: http://localhost:5248
+2025-05-08 00:26:50.693 +05:30 [DBG] Loaded hosting startup assembly InventoryManagementSystem
+2025-05-08 00:26:50.694 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-05-08 00:26:50.695 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-05-08 00:26:50.696 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-05-08 00:26:50.866 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-08 00:26:50.867 +05:30 [INF] Hosting environment: Development
+2025-05-08 00:26:50.868 +05:30 [INF] Content root path: C:\Users\harsh.soni\Desktop\Inventory Management System Harsh Soni\InventoryManagementSystem
+2025-05-08 00:26:50.869 +05:30 [DBG] Hosting started
+2025-05-08 00:26:51.186 +05:30 [DBG] Connection id "0HNCDJ3MKDEIR" accepted.
+2025-05-08 00:26:51.189 +05:30 [DBG] Connection id "0HNCDJ3MKDEIR" started.
+2025-05-08 00:26:51.195 +05:30 [DBG] Connection id "0HNCDJ3MKDEIS" accepted.
+2025-05-08 00:26:51.196 +05:30 [DBG] Connection id "0HNCDJ3MKDEIS" started.
+2025-05-08 00:26:51.213 +05:30 [DBG] Connection id "0HNCDJ3MKDEIR" received FIN.
+2025-05-08 00:26:51.213 +05:30 [DBG] Connection id "0HNCDJ3MKDEIS" received FIN.
+2025-05-08 00:26:51.223 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-05-08 00:26:51.223 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-05-08 00:26:51.241 +05:30 [DBG] Connection id "0HNCDJ3MKDEIS" stopped.
+2025-05-08 00:26:51.241 +05:30 [DBG] Connection id "0HNCDJ3MKDEIR" stopped.
+2025-05-08 00:26:51.244 +05:30 [DBG] Connection id "0HNCDJ3MKDEIS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-08 00:26:51.244 +05:30 [DBG] Connection id "0HNCDJ3MKDEIR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-08 00:26:51.326 +05:30 [DBG] Connection id "0HNCDJ3MKDEIT" accepted.
+2025-05-08 00:26:51.330 +05:30 [DBG] Connection id "0HNCDJ3MKDEIT" started.
+2025-05-08 00:26:51.382 +05:30 [DBG] Connection 0HNCDJ3MKDEIT established using the following protocol: "Tls12"
+2025-05-08 00:26:51.425 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7150/swagger/index.html - null null
+2025-05-08 00:26:51.509 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-08 00:26:51.525 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-05-08 00:26:51.528 +05:30 [DBG] Request did not match any endpoints
+2025-05-08 00:26:51.589 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-05-08 00:26:51.591 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-05-08 00:26:51.609 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2025-05-08 00:26:51.611 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2025-05-08 00:26:51.614 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7150/swagger/index.html - 200 null text/html;charset=utf-8 191.1914ms
+2025-05-08 00:26:51.633 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7150/_vs/browserLink - null null
+2025-05-08 00:26:51.633 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7150/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-08 00:26:51.648 +05:30 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-05-08 00:26:51.653 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7150/_framework/aspnetcore-browser-refresh.js - 200 16535 application/javascript; charset=utf-8 19.8784ms
+2025-05-08 00:26:51.677 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7150/_vs/browserLink - 200 null text/javascript; charset=UTF-8 44.2241ms
+2025-05-08 00:26:51.797 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7150/swagger/v1/swagger.json - null null
+2025-05-08 00:26:51.800 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-05-08 00:26:51.801 +05:30 [DBG] Request did not match any endpoints
+2025-05-08 00:26:51.820 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7150/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 22.775ms
+2025-05-08 00:27:22.256 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7150/api/StockPurchaseOrder/filter-by-dates - application/json 74
+2025-05-08 00:27:22.270 +05:30 [DBG] 1 candidate(s) found for the request path '/api/StockPurchaseOrder/filter-by-dates'
+2025-05-08 00:27:22.281 +05:30 [DBG] Endpoint 'InventoryManagementSystem.Controllers.StockPurchaseOrderController.GetOrdersBetweenDates (InventoryManagementSystem)' with route pattern 'api/StockPurchaseOrder/filter-by-dates' is valid for the request path '/api/StockPurchaseOrder/filter-by-dates'
+2025-05-08 00:27:22.286 +05:30 [DBG] Request matched endpoint 'InventoryManagementSystem.Controllers.StockPurchaseOrderController.GetOrdersBetweenDates (InventoryManagementSystem)'
+2025-05-08 00:27:22.290 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-05-08 00:27:22.315 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-05-08 00:27:22.317 +05:30 [INF] Executing endpoint 'InventoryManagementSystem.Controllers.StockPurchaseOrderController.GetOrdersBetweenDates (InventoryManagementSystem)'
+2025-05-08 00:27:22.341 +05:30 [INF] Route matched with {action = "GetOrdersBetweenDates", controller = "StockPurchaseOrder"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrdersBetweenDates(InventoryManagementSystem.Models.Responces.OrderFilterByDateRequest) on controller InventoryManagementSystem.Controllers.StockPurchaseOrderController (InventoryManagementSystem).
+2025-05-08 00:27:22.345 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-05-08 00:27:22.348 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-05-08 00:27:22.350 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-05-08 00:27:22.352 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-05-08 00:27:22.353 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-05-08 00:27:22.356 +05:30 [DBG] Executing controller factory for controller InventoryManagementSystem.Controllers.StockPurchaseOrderController (InventoryManagementSystem)
+2025-05-08 00:27:22.435 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-05-08 00:27:22.455 +05:30 [DBG] Executed controller factory for controller InventoryManagementSystem.Controllers.StockPurchaseOrderController (InventoryManagementSystem)
+2025-05-08 00:27:22.460 +05:30 [DBG] Attempting to bind parameter 'request' of type 'InventoryManagementSystem.Models.Responces.OrderFilterByDateRequest' ...
+2025-05-08 00:27:22.464 +05:30 [DBG] Attempting to bind parameter 'request' of type 'InventoryManagementSystem.Models.Responces.OrderFilterByDateRequest' using the name '' in request data ...
+2025-05-08 00:27:22.466 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-05-08 00:27:22.473 +05:30 [DBG] Connection id "0HNCDJ3MKDEIT", Request id "0HNCDJ3MKDEIT:00000009": started reading request body.
+2025-05-08 00:27:22.474 +05:30 [DBG] Connection id "0HNCDJ3MKDEIT", Request id "0HNCDJ3MKDEIT:00000009": done reading request body.
+2025-05-08 00:27:22.486 +05:30 [DBG] JSON input formatter succeeded, deserializing to type 'InventoryManagementSystem.Models.Responces.OrderFilterByDateRequest'
+2025-05-08 00:27:22.487 +05:30 [DBG] Done attempting to bind parameter 'request' of type 'InventoryManagementSystem.Models.Responces.OrderFilterByDateRequest'.
+2025-05-08 00:27:22.488 +05:30 [DBG] Done attempting to bind parameter 'request' of type 'InventoryManagementSystem.Models.Responces.OrderFilterByDateRequest'.
+2025-05-08 00:27:22.489 +05:30 [DBG] Attempting to validate the bound parameter 'request' of type 'InventoryManagementSystem.Models.Responces.OrderFilterByDateRequest' ...
+2025-05-08 00:27:22.496 +05:30 [DBG] Done attempting to validate the bound parameter 'request' of type 'InventoryManagementSystem.Models.Responces.OrderFilterByDateRequest'.
+2025-05-08 00:27:23.069 +05:30 [DBG] Entity Framework Core 9.0.4 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.4' with options: EngineType=SqlServer 
+2025-05-08 00:27:23.109 +05:30 [DBG] Compiling query expression: 
+'DbSet<StockPurchaseOrders>()
+    .Include(o => o.VendorDetails)
+    .Where(o => o.PurchaseDate >= __fromDate_0 && o.PurchaseDate <= __toDate_1)'
+2025-05-08 00:27:23.178 +05:30 [DBG] Including navigation: 'StockPurchaseOrders.VendorDetails'.
+2025-05-08 00:27:23.380 +05:30 [DBG] Generated query execution expression: 
+'queryContext => SingleQueryingEnumerable.Create<StockPurchaseOrders>(
+    relationalQueryContext: (RelationalQueryContext)queryContext, 
+    relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: StockPurchaseOrders.StockPurchaseOrderId (long) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: StockPurchaseOrders.NumberOfItem (int) Required, 1], [Property: StockPurchaseOrders.OrderRecivedDate (DateTime) Required, 2], [Property: StockPurchaseOrders.OrderStatusId (int) Required FK Index, 3], [Property: StockPurchaseOrders.PaymentDate (DateTime) Required, 4], [Property: StockPurchaseOrders.PaymentMethodId (int) Required FK Index, 5], [Property: StockPurchaseOrders.PaymentStatusId (int) Required FK Index, 6], [Property: StockPurchaseOrders.PaymentTypeId (int) Required FK Index, 7], [Property: StockPurchaseOrders.PurchaseBy (long) Required, 8], [Property: StockPurchaseOrders.PurchaseDate (DateTime) Required, 9], [Property: StockPurchaseOrders.TotalNumberOfQuantity (int) Required, 10], [Property: StockPurchaseOrders.TotalPrice (decimal) Required, 11], [Property: StockPurchaseOrders.UpdatedAt (DateTime) Required, 12], [Property: StockPurchaseOrders.UpdatedBy (long) Required FK Index, 13], [Property: StockPurchaseOrders.VendorId (long) Required FK Index, 14] }
+            1 -> Dictionary<IProperty, int> { [Property: VendorDetails.VendorId (long) Required PK AfterSave:Throw ValueGenerated.OnAdd, 15], [Property: VendorDetails.Address (string) Required MaxLength(500), 16], [Property: VendorDetails.City (string) Required MaxLength(100), 17], [Property: VendorDetails.Country (string) Required MaxLength(100), 18], [Property: VendorDetails.CreatedAt (DateTime) Required, 19], [Property: VendorDetails.CreatedBy (long) Required FK Index, 20], [Property: VendorDetails.Email (string) Required MaxLength(255), 21], [Property: VendorDetails.IsDeleted (bool) Required, 22], [Property: VendorDetails.Name (string) Required MaxLength(255), 23], [Property: VendorDetails.Phone (string) Required MaxLength(20), 24], [Property: VendorDetails.Pincode (string) Required MaxLength(10), 25], [Property: VendorDetails.State (string) Required MaxLength(100), 26], [Property: VendorDetails.StoreName (string) Required, 27], [Property: VendorDetails.UpdatedAt (DateTime) Required, 28], [Property: VendorDetails.UpdatedBy (long) Required, 29] }
+        SELECT s.StockPurchaseOrderId, s.NumberOfItem, s.OrderRecivedDate, s.OrderStatusId, s.PaymentDate, s.PaymentMethodId, s.PaymentStatusId, s.PaymentTypeId, s.PurchaseBy, s.PurchaseDate, s.TotalNumberOfQuantity, s.TotalPrice, s.UpdatedAt, s.UpdatedBy, s.VendorId, v.VendorId, v.Address, v.City, v.Country, v.CreatedAt, v.CreatedBy, v.Email, v.IsDeleted, v.Name, v.Phone, v.Pincode, v.State, v.StoreName, v.UpdatedAt, v.UpdatedBy
+        FROM StockPurchaseOrders AS s
+        INNER JOIN VendorDetails AS v ON s.VendorId == v.VendorId
+        WHERE (s.PurchaseDate >= @__fromDate_0) && (s.PurchaseDate <= @__toDate_1)) | Resolver: c => new RelationalCommandCache(
+        c.Dependencies.MemoryCache, 
+        c.RelationalDependencies.QuerySqlGeneratorFactory, 
+        c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: StockPurchaseOrders.StockPurchaseOrderId (long) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: StockPurchaseOrders.NumberOfItem (int) Required, 1], [Property: StockPurchaseOrders.OrderRecivedDate (DateTime) Required, 2], [Property: StockPurchaseOrders.OrderStatusId (int) Required FK Index, 3], [Property: StockPurchaseOrders.PaymentDate (DateTime) Required, 4], [Property: StockPurchaseOrders.PaymentMethodId (int) Required FK Index, 5], [Property: StockPurchaseOrders.PaymentStatusId (int) Required FK Index, 6], [Property: StockPurchaseOrders.PaymentTypeId (int) Required FK Index, 7], [Property: StockPurchaseOrders.PurchaseBy (long) Required, 8], [Property: StockPurchaseOrders.PurchaseDate (DateTime) Required, 9], [Property: StockPurchaseOrders.TotalNumberOfQuantity (int) Required, 10], [Property: StockPurchaseOrders.TotalPrice (decimal) Required, 11], [Property: StockPurchaseOrders.UpdatedAt (DateTime) Required, 12], [Property: StockPurchaseOrders.UpdatedBy (long) Required FK Index, 13], [Property: StockPurchaseOrders.VendorId (long) Required FK Index, 14] }
+            1 -> Dictionary<IProperty, int> { [Property: VendorDetails.VendorId (long) Required PK AfterSave:Throw ValueGenerated.OnAdd, 15], [Property: VendorDetails.Address (string) Required MaxLength(500), 16], [Property: VendorDetails.City (string) Required MaxLength(100), 17], [Property: VendorDetails.Country (string) Required MaxLength(100), 18], [Property: VendorDetails.CreatedAt (DateTime) Required, 19], [Property: VendorDetails.CreatedBy (long) Required FK Index, 20], [Property: VendorDetails.Email (string) Required MaxLength(255), 21], [Property: VendorDetails.IsDeleted (bool) Required, 22], [Property: VendorDetails.Name (string) Required MaxLength(255), 23], [Property: VendorDetails.Phone (string) Required MaxLength(20), 24], [Property: VendorDetails.Pincode (string) Required MaxLength(10), 25], [Property: VendorDetails.State (string) Required MaxLength(100), 26], [Property: VendorDetails.StoreName (string) Required, 27], [Property: VendorDetails.UpdatedAt (DateTime) Required, 28], [Property: VendorDetails.UpdatedBy (long) Required, 29] }
+        SELECT s.StockPurchaseOrderId, s.NumberOfItem, s.OrderRecivedDate, s.OrderStatusId, s.PaymentDate, s.PaymentMethodId, s.PaymentStatusId, s.PaymentTypeId, s.PurchaseBy, s.PurchaseDate, s.TotalNumberOfQuantity, s.TotalPrice, s.UpdatedAt, s.UpdatedBy, s.VendorId, v.VendorId, v.Address, v.City, v.Country, v.CreatedAt, v.CreatedBy, v.Email, v.IsDeleted, v.Name, v.Phone, v.Pincode, v.State, v.StoreName, v.UpdatedAt, v.UpdatedBy
+        FROM StockPurchaseOrders AS s
+        INNER JOIN VendorDetails AS v ON s.VendorId == v.VendorId
+        WHERE (s.PurchaseDate >= @__fromDate_0) && (s.PurchaseDate <= @__toDate_1), 
+        False, 
+        new HashSet<string>(
+            new string[]{ }, 
+            StringComparer.Ordinal
+        )
+    )].GetRelationalCommandTemplate(parameters), 
+    readerColumns: null, 
+    shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+    {
+        StockPurchaseOrders entity;
+        VendorDetails entity;
+        entity = 
+        {
+            MaterializationContext materializationContext1;
+            IEntityType entityType1;
+            StockPurchaseOrders instance1;
+            InternalEntityEntry entry1;
+            bool hasNullKey1;
+            materializationContext1 = new MaterializationContext(
+                [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                queryContext.Context
+            );
+            instance1 = default(StockPurchaseOrders);
+            entry1 = queryContext.TryGetEntry(
+                key: [LIFTABLE Constant: Key: StockPurchaseOrders.StockPurchaseOrderId PK | Resolver: c => c.Dependencies.Model.FindEntityType("InventoryManagementSystem.Models.Entity.StockPurchaseOrders").FindPrimaryKey()], 
+                keyValues: new object[]{ (object)dataReader.GetInt64(0) }, 
+                throwOnNullKey: True, 
+                hasNullKey: hasNullKey1);
+            !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+            {
+                entityType1 = entry1.EntityType;
+                return instance1 = (StockPurchaseOrders)entry1.Entity;
+            } : 
+            {
+                ISnapshot shadowSnapshot1;
+                shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                entityType1 = [LIFTABLE Constant: EntityType: StockPurchaseOrders | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("InventoryManagementSystem.Models.Entity.StockPurchaseOrders")];
+                instance1 = switch (entityType1)
+                {
+                    case [LIFTABLE Constant: EntityType: StockPurchaseOrders | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("InventoryManagementSystem.Models.Entity.StockPurchaseOrders")]: 
+                        {
+                            return 
+                            {
+                                StockPurchaseOrders instance;
+                                instance = new StockPurchaseOrders();
+                                instance.<StockPurchaseOrderId>k__BackingField = dataReader.GetInt64(0);
+                                instance.<NumberOfItem>k__BackingField = dataReader.GetInt32(1);
+                                instance.<OrderRecivedDate>k__BackingField = dataReader.GetDateTime(2);
+                                instance.<OrderStatusId>k__BackingField = dataReader.GetInt32(3);
+                                instance.<PaymentDate>k__BackingField = dataReader.GetDateTime(4);
+                                instance.<PaymentMethodId>k__BackingField = dataReader.GetInt32(5);
+                                instance.<PaymentStatusId>k__BackingField = dataReader.GetInt32(6);
+                                instance.<PaymentTypeId>k__BackingField = dataReader.GetInt32(7);
+                                instance.<PurchaseBy>k__BackingField = dataReader.GetInt64(8);
+                                instance.<PurchaseDate>k__BackingField = dataReader.GetDateTime(9);
+                                instance.<TotalNumberOfQuantity>k__BackingField = dataReader.GetInt32(10);
+                                instance.<TotalPrice>k__BackingField = dataReader.GetDecimal(11);
+                                instance.<UpdatedAt>k__BackingField = dataReader.GetDateTime(12);
+                                instance.<UpdatedBy>k__BackingField = dataReader.GetInt64(13);
+                                instance.<VendorId>k__BackingField = dataReader.GetInt64(14);
+                                (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                    context: materializationContext1.Context, 
+                                    entity: instance, 
+                                    queryTrackingBehavior: TrackAll, 
+                                    structuralType: [LIFTABLE Constant: EntityType: StockPurchaseOrders | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("InventoryManagementSystem.Models.Entity.StockPurchaseOrders")]) : default(void);
+                                return instance;
+                            }}
+                    default: 
+                        default(StockPurchaseOrders)
+                }
+                ;
+                entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                    entityType: entityType1, 
+                    entity: instance1, 
+                    snapshot: shadowSnapshot1);
+                return instance1;
+            } : default(void);
+            return instance1;
+        };
+        entity = 
+        {
+            MaterializationContext materializationContext2;
+            IEntityType entityType2;
+            VendorDetails instance2;
+            InternalEntityEntry entry2;
+            bool hasNullKey2;
+            materializationContext2 = new MaterializationContext(
+                [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                queryContext.Context
+            );
+            instance2 = default(VendorDetails);
+            entry2 = queryContext.TryGetEntry(
+                key: [LIFTABLE Constant: Key: VendorDetails.VendorId PK | Resolver: c => c.Dependencies.Model.FindEntityType("InventoryManagementSystem.Models.Entity.VendorDetails").FindPrimaryKey()], 
+                keyValues: new object[]{ (object)dataReader.GetInt64(15) }, 
+                throwOnNullKey: True, 
+                hasNullKey: hasNullKey2);
+            !(hasNullKey2) ? entry2 != default(InternalEntityEntry) ? 
+            {
+                entityType2 = entry2.EntityType;
+                return instance2 = (VendorDetails)entry2.Entity;
+            } : 
+            {
+                ISnapshot shadowSnapshot2;
+                shadowSnapshot2 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                entityType2 = [LIFTABLE Constant: EntityType: VendorDetails | Resolver: namelessParameter{3} => namelessParameter{3}.Dependencies.Model.FindEntityType("InventoryManagementSystem.Models.Entity.VendorDetails")];
+                instance2 = switch (entityType2)
+                {
+                    case [LIFTABLE Constant: EntityType: VendorDetails | Resolver: namelessParameter{4} => namelessParameter{4}.Dependencies.Model.FindEntityType("InventoryManagementSystem.Models.Entity.VendorDetails")]: 
+                        {
+                            return 
+                            {
+                                VendorDetails instance;
+                                instance = new VendorDetails();
+                                instance.<VendorId>k__BackingField = dataReader.GetInt64(15);
+                                instance.<Address>k__BackingField = dataReader.GetString(16);
+                                instance.<City>k__BackingField = dataReader.GetString(17);
+                                instance.<Country>k__BackingField = dataReader.GetString(18);
+                                instance.<CreatedAt>k__BackingField = dataReader.GetDateTime(19);
+                                instance.<CreatedBy>k__BackingField = dataReader.GetInt64(20);
+                                instance.<Email>k__BackingField = dataReader.GetString(21);
+                                instance.<IsDeleted>k__BackingField = dataReader.GetBoolean(22);
+                                instance.<Name>k__BackingField = dataReader.GetString(23);
+                                instance.<Phone>k__BackingField = dataReader.GetString(24);
+                                instance.<Pincode>k__BackingField = dataReader.GetString(25);
+                                instance.<State>k__BackingField = dataReader.GetString(26);
+                                instance.<StoreName>k__BackingField = dataReader.GetString(27);
+                                instance.<UpdatedAt>k__BackingField = dataReader.GetDateTime(28);
+                                instance.<UpdatedBy>k__BackingField = dataReader.GetInt64(29);
+                                (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                    context: materializationContext2.Context, 
+                                    entity: instance, 
+                                    queryTrackingBehavior: TrackAll, 
+                                    structuralType: [LIFTABLE Constant: EntityType: VendorDetails | Resolver: namelessParameter{5} => namelessParameter{5}.Dependencies.Model.FindEntityType("InventoryManagementSystem.Models.Entity.VendorDetails")]) : default(void);
+                                return instance;
+                            }}
+                    default: 
+                        default(VendorDetails)
+                }
+                ;
+                entry2 = entityType2 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                    entityType: entityType2, 
+                    entity: instance2, 
+                    snapshot: shadowSnapshot2);
+                return instance2;
+            } : default(void);
+            return instance2;
+        };
+        ShaperProcessingExpressionVisitor.IncludeReference<StockPurchaseOrders, StockPurchaseOrders, VendorDetails>(
+            queryContext: queryContext, 
+            entity: entity, 
+            relatedEntity: entity, 
+            navigation: [LIFTABLE Constant: Navigation: StockPurchaseOrders.VendorDetails (VendorDetails) ToPrincipal VendorDetails | Resolver: namelessParameter{6} => namelessParameter{6}.Dependencies.Model.FindEntityType("InventoryManagementSystem.Models.Entity.StockPurchaseOrders").FindNavigation("VendorDetails")], 
+            inverseNavigation: default(INavigation), 
+            fixup: (namelessParameter{7}, namelessParameter{8}) => 
+            {
+                return namelessParameter{7}.<VendorDetails>k__BackingField = namelessParameter{8};
+            }, 
+            trackingQuery: True);
+        return entity;
+    }, 
+    contextType: InventoryManagementSystem.Data.Context.ApplicationDbContext, 
+    standAloneStateManager: False, 
+    detailedErrorsEnabled: False, 
+    threadSafetyChecksEnabled: True)'
+2025-05-08 00:27:23.439 +05:30 [DBG] Creating DbConnection.
+2025-05-08 00:27:23.455 +05:30 [DBG] Created DbConnection. (14ms).
+2025-05-08 00:27:23.459 +05:30 [DBG] Opening connection to database 'InventoryManagement2323' on server 'ATPL-LAP-354'.
+2025-05-08 00:27:23.579 +05:30 [DBG] Opened connection to database 'InventoryManagement2323' on server 'ATPL-LAP-354'.
+2025-05-08 00:27:23.584 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-05-08 00:27:23.591 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (4ms).
+2025-05-08 00:27:23.598 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (13ms).
+2025-05-08 00:27:23.606 +05:30 [DBG] Executing DbCommand [Parameters=[@__fromDate_0='?' (DbType = DateTime2), @__toDate_1='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[StockPurchaseOrderId], [s].[NumberOfItem], [s].[OrderRecivedDate], [s].[OrderStatusId], [s].[PaymentDate], [s].[PaymentMethodId], [s].[PaymentStatusId], [s].[PaymentTypeId], [s].[PurchaseBy], [s].[PurchaseDate], [s].[TotalNumberOfQuantity], [s].[TotalPrice], [s].[UpdatedAt], [s].[UpdatedBy], [s].[VendorId], [v].[VendorId], [v].[Address], [v].[City], [v].[Country], [v].[CreatedAt], [v].[CreatedBy], [v].[Email], [v].[IsDeleted], [v].[Name], [v].[Phone], [v].[Pincode], [v].[State], [v].[StoreName], [v].[UpdatedAt], [v].[UpdatedBy]
+FROM [StockPurchaseOrders] AS [s]
+INNER JOIN [VendorDetails] AS [v] ON [s].[VendorId] = [v].[VendorId]
+WHERE [s].[PurchaseDate] >= @__fromDate_0 AND [s].[PurchaseDate] <= @__toDate_1
+2025-05-08 00:27:23.667 +05:30 [INF] Executed DbCommand (63ms) [Parameters=[@__fromDate_0='?' (DbType = DateTime2), @__toDate_1='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[StockPurchaseOrderId], [s].[NumberOfItem], [s].[OrderRecivedDate], [s].[OrderStatusId], [s].[PaymentDate], [s].[PaymentMethodId], [s].[PaymentStatusId], [s].[PaymentTypeId], [s].[PurchaseBy], [s].[PurchaseDate], [s].[TotalNumberOfQuantity], [s].[TotalPrice], [s].[UpdatedAt], [s].[UpdatedBy], [s].[VendorId], [v].[VendorId], [v].[Address], [v].[City], [v].[Country], [v].[CreatedAt], [v].[CreatedBy], [v].[Email], [v].[IsDeleted], [v].[Name], [v].[Phone], [v].[Pincode], [v].[State], [v].[StoreName], [v].[UpdatedAt], [v].[UpdatedBy]
+FROM [StockPurchaseOrders] AS [s]
+INNER JOIN [VendorDetails] AS [v] ON [s].[VendorId] = [v].[VendorId]
+WHERE [s].[PurchaseDate] >= @__fromDate_0 AND [s].[PurchaseDate] <= @__toDate_1
+2025-05-08 00:27:23.704 +05:30 [DBG] Context 'ApplicationDbContext' started tracking 'StockPurchaseOrders' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-08 00:27:23.748 +05:30 [DBG] The navigation 'StockPurchaseOrders.VendorDetails' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-08 00:27:23.752 +05:30 [DBG] Context 'ApplicationDbContext' started tracking 'VendorDetails' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-08 00:27:23.778 +05:30 [DBG] Context 'ApplicationDbContext' started tracking 'StockPurchaseOrders' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-08 00:27:23.781 +05:30 [DBG] Context 'ApplicationDbContext' started tracking 'StockPurchaseOrders' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-08 00:27:23.783 +05:30 [DBG] Context 'ApplicationDbContext' started tracking 'StockPurchaseOrders' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-08 00:27:23.784 +05:30 [DBG] Context 'ApplicationDbContext' started tracking 'StockPurchaseOrders' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-08 00:27:23.786 +05:30 [DBG] Context 'ApplicationDbContext' started tracking 'StockPurchaseOrders' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-08 00:27:23.788 +05:30 [DBG] Context 'ApplicationDbContext' started tracking 'StockPurchaseOrders' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-08 00:27:23.789 +05:30 [DBG] Context 'ApplicationDbContext' started tracking 'StockPurchaseOrders' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-08 00:27:23.791 +05:30 [DBG] Context 'ApplicationDbContext' started tracking 'StockPurchaseOrders' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-08 00:27:23.795 +05:30 [DBG] Closing data reader to 'InventoryManagement2323' on server 'ATPL-LAP-354'.
+2025-05-08 00:27:23.802 +05:30 [DBG] A data reader for 'InventoryManagement2323' on server 'ATPL-LAP-354' is being disposed after spending 126ms reading results.
+2025-05-08 00:27:23.806 +05:30 [DBG] Closing connection to database 'InventoryManagement2323' on server 'ATPL-LAP-354'.
+2025-05-08 00:27:23.810 +05:30 [DBG] Closed connection to database 'InventoryManagement2323' on server 'ATPL-LAP-354' (4ms).
+2025-05-08 00:27:23.817 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-05-08 00:27:23.821 +05:30 [DBG] No information found on request to perform content negotiation.
+2025-05-08 00:27:23.822 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-05-08 00:27:23.823 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-05-08 00:27:23.824 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-05-08 00:27:23.825 +05:30 [INF] Executing OkObjectResult, writing value of type 'InventoryManagementSystem.Models.Responces.ApiResponse`1[[System.Collections.Generic.List`1[[InventoryManagementSystem.Models.Responces.StockPurchaseOrderSummaryResponse, InventoryManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-08 00:27:23.850 +05:30 [INF] Executed action InventoryManagementSystem.Controllers.StockPurchaseOrderController.GetOrdersBetweenDates (InventoryManagementSystem) in 1493.0229ms
+2025-05-08 00:27:23.854 +05:30 [INF] Executed endpoint 'InventoryManagementSystem.Controllers.StockPurchaseOrderController.GetOrdersBetweenDates (InventoryManagementSystem)'
+2025-05-08 00:27:23.857 +05:30 [DBG] 'ApplicationDbContext' disposed.
+2025-05-08 00:27:23.863 +05:30 [DBG] Disposing connection to database 'InventoryManagement2323' on server 'ATPL-LAP-354'.
+2025-05-08 00:27:23.865 +05:30 [DBG] Disposed connection to database '' on server '' (3ms).
+2025-05-08 00:27:23.867 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7150/api/StockPurchaseOrder/filter-by-dates - 200 null application/json; charset=utf-8 1611.1823ms
+2025-05-08 00:29:33.949 +05:30 [DBG] Connection id "0HNCDJ3MKDEIT" is closing.
+2025-05-08 00:29:33.952 +05:30 [DBG] Connection id "0HNCDJ3MKDEIT" is closed. The last processed stream ID was 9.
+2025-05-08 00:29:33.954 +05:30 [DBG] Connection id "0HNCDJ3MKDEIT" received FIN.
+2025-05-08 00:29:33.955 +05:30 [DBG] Connection id "0HNCDJ3MKDEIT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-08 00:29:33.955 +05:30 [DBG] The connection queue processing loop for 0HNCDJ3MKDEIT completed.
+2025-05-08 00:29:33.958 +05:30 [DBG] Connection id "0HNCDJ3MKDEIT" stopped.
+2025-05-08 01:11:29.401 +05:30 [INF] Starting up the application...
+2025-05-08 01:11:29.578 +05:30 [FTL] Application failed to start
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\harsh.soni\Desktop\Inventory Management System Harsh Soni\InventoryManagementSystem\Program.cs:line 95

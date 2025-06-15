@@ -1,0 +1,390 @@
+[2025-05-12 00:47:59.755 +05:30] [INF] Starting up the application...
+[2025-05-12 00:48:01.057 +05:30] [INF] LowStockCheckService started.
+[2025-05-12 00:48:01.064 +05:30] [INF] Checking for low-stock products at "2025-05-11T19:18:01.0592670Z"
+[2025-05-12 00:48:06.696 +05:30] [INF] Low stock email sent for 2 products to harsh.soni18553@marwadieducation.edu.in.
+[2025-05-12 00:48:06.702 +05:30] [INF] LowStockCheckService will check again after "24.00:00:00"
+[2025-05-12 00:48:47.377 +05:30] [INF] User logged in successfully: user@example.com
+[2025-05-12 00:49:19.735 +05:30] [INF] Fetched 3 categories.
+[2025-05-12 00:50:42.575 +05:30] [INF] User logged in successfully: harsh@gmail.com
+[2025-05-12 00:51:14.711 +05:30] [INF] Category 'String' added successfully by UserId 2.
+[2025-05-12 00:51:41.216 +05:30] [WRN] AddCategoryAsync failed: Category 'String' already exists.
+[2025-05-12 10:46:44.534 +05:30] [INF] Starting up the application...
+[2025-05-12 10:46:45.836 +05:30] [INF] LowStockCheckService started.
+[2025-05-12 10:46:45.850 +05:30] [INF] Checking for low-stock products at "2025-05-12T05:16:45.8414622Z"
+[2025-05-12 10:46:52.030 +05:30] [INF] Low stock email sent for 2 products to harsh.soni18553@marwadieducation.edu.in.
+[2025-05-12 10:46:52.038 +05:30] [INF] LowStockCheckService will check again after "24.00:00:00"
+[2025-05-12 10:53:30.313 +05:30] [INF] Starting up the application...
+[2025-05-12 10:53:31.456 +05:30] [INF] LowStockCheckService started.
+[2025-05-12 10:53:31.462 +05:30] [INF] Checking for low-stock products at "2025-05-12T05:23:31.4580921Z"
+[2025-05-12 10:53:36.772 +05:30] [INF] Low stock email sent for 2 products to harsh.soni18553@marwadieducation.edu.in.
+[2025-05-12 10:53:36.778 +05:30] [INF] LowStockCheckService will check again after "24.00:00:00"
+[2025-05-12 10:59:24.868 +05:30] [INF] Starting up the application...
+[2025-05-12 10:59:25.887 +05:30] [INF] LowStockCheckService started.
+[2025-05-12 10:59:25.894 +05:30] [INF] Checking for low-stock products at "2025-05-12T05:29:25.8896566Z"
+[2025-05-12 10:59:31.826 +05:30] [INF] Low stock email sent for 2 products to harsh.soni18553@marwadieducation.edu.in.
+[2025-05-12 10:59:31.837 +05:30] [INF] LowStockCheckService will check again after "24.00:00:00"
+[2025-05-12 11:31:21.531 +05:30] [INF] Starting up the application...
+[2025-05-12 11:31:21.723 +05:30] [FTL] Application failed to start
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\harsh.soni\Desktop\Inventory Management System Harsh Soni\InventoryManagementSystem\Program.cs:line 124
+[2025-05-12 11:33:50.764 +05:30] [INF] Starting up the application...
+[2025-05-12 11:33:50.944 +05:30] [FTL] Application failed to start
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\harsh.soni\Desktop\Inventory Management System Harsh Soni\InventoryManagementSystem\Program.cs:line 124
+[2025-05-12 11:38:43.797 +05:30] [INF] Starting up the application...
+[2025-05-12 11:38:43.957 +05:30] [FTL] Application failed to start
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\harsh.soni\Desktop\Inventory Management System Harsh Soni\InventoryManagementSystem\Program.cs:line 124
+[2025-05-12 11:41:12.833 +05:30] [INF] Starting up the application...
+[2025-05-12 11:41:13.001 +05:30] [FTL] Application failed to start
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\harsh.soni\Desktop\Inventory Management System Harsh Soni\InventoryManagementSystem\Program.cs:line 124
+[2025-05-12 11:41:39.464 +05:30] [INF] Starting up the application...
+[2025-05-12 11:41:39.627 +05:30] [FTL] Application failed to start
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\harsh.soni\Desktop\Inventory Management System Harsh Soni\InventoryManagementSystem\Program.cs:line 124
+[2025-05-12 11:49:32.269 +05:30] [INF] Starting up the application...
+[2025-05-12 11:49:33.266 +05:30] [INF] LowStockCheckService started.
+[2025-05-12 11:49:33.275 +05:30] [INF] Checking for low-stock products at "2025-05-12T06:19:33.2687549Z"
+[2025-05-12 11:49:39.525 +05:30] [INF] Low stock email sent for 2 products to harsh.soni18553@marwadieducation.edu.in.
+[2025-05-12 11:49:39.538 +05:30] [INF] LowStockCheckService will check again after "24.00:00:00"
+[2025-05-12 11:50:14.157 +05:30] [INF] Starting up the application...
+[2025-05-12 11:50:15.366 +05:30] [INF] LowStockCheckService started.
+[2025-05-12 11:50:15.374 +05:30] [INF] Checking for low-stock products at "2025-05-12T06:20:15.3689706Z"
+[2025-05-12 11:50:20.503 +05:30] [INF] Low stock email sent for 2 products to harsh.soni18553@marwadieducation.edu.in.
+[2025-05-12 11:50:20.515 +05:30] [INF] LowStockCheckService will check again after "24.00:00:00"
+[2025-05-12 12:03:23.746 +05:30] [INF] Starting up the application...
+[2025-05-12 12:03:24.841 +05:30] [INF] LowStockCheckService started.
+[2025-05-12 12:03:24.848 +05:30] [INF] Checking for low-stock products at "2025-05-12T06:33:24.8433310Z"
+[2025-05-12 12:03:30.039 +05:30] [INF] Low stock email sent for 2 products to harsh.soni18553@marwadieducation.edu.in.
+[2025-05-12 12:03:30.045 +05:30] [INF] LowStockCheckService will check again after "24.00:00:00"
+[2025-05-12 12:03:49.925 +05:30] [INF] User logged in successfully: harsh@gmail.com
+[2025-05-12 12:04:26.486 +05:30] [INF] Processing return for OrderId 1
+[2025-05-12 12:04:26.631 +05:30] [WRN] Item 2 in OrderId 1 has already been returned
+[2025-05-12 12:04:44.283 +05:30] [INF] Fetching order details for OrderId 1, UserId 2
+[2025-05-12 12:05:09.094 +05:30] [INF] Processing return for OrderId 1
+[2025-05-12 12:05:09.320 +05:30] [INF] Starting stock movement for ProductId: 1, UserId: 2, Status: "Returned"
+[2025-05-12 12:05:09.331 +05:30] [INF] 'Return' movement for ProductId: 1
+[2025-05-12 12:05:09.387 +05:30] [INF] Stock movement successfully for ProductId: 1
+[2025-05-12 12:05:09.413 +05:30] [INF] Return processed successfully for OrderId 1
+[2025-05-12 12:05:26.838 +05:30] [INF] Processing return for OrderId 1
+[2025-05-12 12:05:26.848 +05:30] [WRN] Item 1 in OrderId 1 has already been returned
+[2025-05-12 12:05:42.079 +05:30] [INF] Fetching order details for OrderId 1, UserId 2
+[2025-05-12 12:08:03.949 +05:30] [INF] Fetching order details for OrderId 2, UserId 2
+[2025-05-12 12:08:14.184 +05:30] [INF] Fetching order details for OrderId 3, UserId 2
+[2025-05-12 12:08:25.844 +05:30] [INF] Fetching order details for OrderId 4, UserId 2
+[2025-05-12 12:08:37.010 +05:30] [INF] Fetching order details for OrderId 5, UserId 2
+[2025-05-12 12:08:37.035 +05:30] [WRN] Order not found for OrderId 5
+[2025-05-12 12:09:38.817 +05:30] [INF] Fetching order details for OrderId 2, UserId 2
+[2025-05-12 12:20:22.008 +05:30] [INF] Starting up the application...
+[2025-05-12 12:20:23.128 +05:30] [INF] LowStockCheckService started.
+[2025-05-12 12:20:23.134 +05:30] [INF] Checking for low-stock products at "2025-05-12T06:50:23.1302424Z"
+[2025-05-12 12:20:29.175 +05:30] [INF] Low stock email sent for 2 products to harsh.soni18553@marwadieducation.edu.in.
+[2025-05-12 12:20:29.183 +05:30] [INF] LowStockCheckService will check again after "24.00:00:00"
+[2025-05-12 12:21:09.812 +05:30] [INF] Starting order placement for userId: 2
+[2025-05-12 12:21:10.013 +05:30] [INF] Starting stock movement for ProductId: 1, UserId: 2, Status: "Completed"
+[2025-05-12 12:21:10.026 +05:30] [INF] 'SellOut' movement for ProductId: 1
+[2025-05-12 12:21:10.107 +05:30] [INF] Stock movement successfully for ProductId: 1
+[2025-05-12 12:21:10.117 +05:30] [INF] Starting stock movement for ProductId: 2, UserId: 2, Status: "Completed"
+[2025-05-12 12:21:10.120 +05:30] [INF] 'SellOut' movement for ProductId: 2
+[2025-05-12 12:21:10.124 +05:30] [INF] Stock movement successfully for ProductId: 2
+[2025-05-12 12:21:10.258 +05:30] [INF] Order successfully placed for userId: 2
+[2025-05-12 12:22:04.709 +05:30] [INF] Processing return for OrderId 5
+[2025-05-12 12:22:04.917 +05:30] [INF] Starting stock movement for ProductId: 1, UserId: 2, Status: "Returned"
+[2025-05-12 12:22:04.924 +05:30] [INF] 'Return' movement for ProductId: 1
+[2025-05-12 12:22:04.931 +05:30] [INF] Stock movement successfully for ProductId: 1
+[2025-05-12 12:22:04.959 +05:30] [INF] Return processed successfully for OrderId 5
+[2025-05-12 12:22:15.238 +05:30] [INF] Fetching order details for OrderId 5, UserId 2
+[2025-05-12 12:40:08.982 +05:30] [INF] Starting up the application...
+[2025-05-12 12:40:10.125 +05:30] [INF] LowStockCheckService started.
+[2025-05-12 12:40:10.130 +05:30] [INF] Checking for low-stock products at "2025-05-12T07:10:10.1267593Z"
+[2025-05-12 12:40:12.889 +05:30] [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Product/search-products" for actions - InventoryManagementSystem.Controllers.ProductController.SearchProducts (InventoryManagementSystem),InventoryManagementSystem.Controllers.ProductController.SearchProductsByCategory (InventoryManagementSystem). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2025-05-12 12:40:15.627 +05:30] [INF] Low stock email sent for 2 products to harsh.soni18553@marwadieducation.edu.in.
+[2025-05-12 12:40:15.634 +05:30] [INF] LowStockCheckService will check again after "24.00:00:00"
+[2025-05-12 12:42:37.811 +05:30] [INF] Starting up the application...
+[2025-05-12 12:42:38.886 +05:30] [INF] LowStockCheckService started.
+[2025-05-12 12:42:38.893 +05:30] [INF] Checking for low-stock products at "2025-05-12T07:12:38.8889049Z"
+[2025-05-12 12:42:44.580 +05:30] [INF] Low stock email sent for 2 products to harsh.soni18553@marwadieducation.edu.in.
+[2025-05-12 12:42:44.585 +05:30] [INF] LowStockCheckService will check again after "24.00:00:00"
+[2025-05-12 12:43:24.062 +05:30] [INF] Fetched 4 categories.
+[2025-05-12 12:45:29.123 +05:30] [INF] Starting up the application...
+[2025-05-12 12:45:30.129 +05:30] [INF] LowStockCheckService started.
+[2025-05-12 12:45:30.134 +05:30] [INF] Checking for low-stock products at "2025-05-12T07:15:30.1306606Z"
+[2025-05-12 12:45:35.742 +05:30] [INF] Low stock email sent for 2 products to harsh.soni18553@marwadieducation.edu.in.
+[2025-05-12 12:45:35.751 +05:30] [INF] LowStockCheckService will check again after "24.00:00:00"
+[2025-05-12 12:49:32.568 +05:30] [INF] Starting up the application...
+[2025-05-12 12:49:33.646 +05:30] [INF] LowStockCheckService started.
+[2025-05-12 12:49:33.653 +05:30] [INF] Checking for low-stock products at "2025-05-12T07:19:33.6487283Z"
+[2025-05-12 12:49:39.014 +05:30] [INF] Low stock email sent for 2 products to harsh.soni18553@marwadieducation.edu.in.
+[2025-05-12 12:49:39.020 +05:30] [INF] LowStockCheckService will check again after "24.00:00:00"
+[2025-05-12 12:50:38.153 +05:30] [INF] Starting stock movement for ProductId: 5, UserId: 2, Status: "Pending"
+[2025-05-12 12:50:38.167 +05:30] [INF] 'NewProductAdded' movement for ProductId: 5
+[2025-05-12 12:50:38.201 +05:30] [INF] Stock movement successfully for ProductId: 5
+[2025-05-12 12:50:38.202 +05:30] [INF] Product added successfully: {"ProductId":5,"Name":"Cooler","Description":"colde air","CategoryId":2,"Price":20,"AvailableQuantity":0,"MinimumRequiredQuantity":5,"LastRestockAt":"0001-01-01T00:00:00.0000000","CreatedBy":2,"CreatedAt":"2025-05-12T12:50:37.9930379+05:30","UpdatedBy":2,"UpdatedAt":"0001-01-01T00:00:00.0000000","IsDeleted":false,"ProductStatus":3,"CreatedByUser":null,"UpdatedByUser":null,"Category":{"CategoryId":2,"Name":"Electronics","CreatedBy":2,"CreatedAt":"2025-05-09T01:31:32.7661442","UpdatedBy":0,"UpdatedAt":"0001-01-01T00:00:00.0000000","ActiveStatus":true,"IsDeleted":false,"CreatedByUser":null,"$type":"Category"},"StockPurchaseOrderItems":null,"$type":"Products"}
+[2025-05-12 12:51:17.390 +05:30] [INF] Creating stock purchase order for VendorId: 1 by UserId: 2
+[2025-05-12 12:51:17.655 +05:30] [INF] Stock purchase order created successfully for VendorId: 1
+[2025-05-12 12:52:05.179 +05:30] [INF] Partial update of order status for OrderId: 5 by UserId: 2
+[2025-05-12 12:52:05.342 +05:30] [INF] Starting stock movement for ProductId: 5, UserId: 2, Status: "Recived"
+[2025-05-12 12:52:05.345 +05:30] [INF] 'Restock' movement for ProductId: 5
+[2025-05-12 12:52:05.352 +05:30] [INF] Stock movement successfully for ProductId: 5
+[2025-05-12 12:52:05.359 +05:30] [INF] Stock purchase order fully received for OrderId: 5
+[2025-05-12 12:56:43.681 +05:30] [INF] Creating stock purchase order for VendorId: 1 by UserId: 2
+[2025-05-12 12:56:43.746 +05:30] [ERR] An exception occurred in the database while saving changes for context type 'InventoryManagementSystem.Data.Context.ApplicationDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_StockPurchaseOrderItems_Products_ProductId". The conflict occurred in database "InventoryManagement", table "dbo.Products", column 'ProductId'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:ad67478a-4688-4a2a-8f03-5b509f310943
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_StockPurchaseOrderItems_Products_ProductId". The conflict occurred in database "InventoryManagement", table "dbo.Products", column 'ProductId'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:ad67478a-4688-4a2a-8f03-5b509f310943
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[2025-05-12 12:56:43.884 +05:30] [ERR] Error creating stock purchase order for VendorId: 1
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_StockPurchaseOrderItems_Products_ProductId". The conflict occurred in database "InventoryManagement", table "dbo.Products", column 'ProductId'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:ad67478a-4688-4a2a-8f03-5b509f310943
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at InventoryManagementSystem.DataService.Implementations.StockPurchaseOrderDataService.AddStockPurchaseOrderAsync(StockPurchaseOrders order) in C:\Users\harsh.soni\Desktop\Inventory Management System Harsh Soni\InventoryManagementSystem\DataService\Implementations\StockPurchaseOrderDataService.cs:line 20
+   at InventoryManagementSystem.BussinessService.Implemantations.StockPurchaseOrderService.CreateStockPurchaseOrderAsync(StockPurchaseOrderRequest request, Int64 userId) in C:\Users\harsh.soni\Desktop\Inventory Management System Harsh Soni\InventoryManagementSystem\BussinessService\Implemantations\StockPurchaseOrderService.cs:line 72
+[2025-05-12 14:11:07.959 +05:30] [INF] Starting up the application...
+[2025-05-12 14:11:09.068 +05:30] [INF] LowStockCheckService started.
+[2025-05-12 14:11:09.078 +05:30] [INF] Checking for low-stock products at "2025-05-12T08:41:09.0714494Z"
+[2025-05-12 14:11:14.460 +05:30] [INF] Low stock email sent for 2 products to harsh.soni18553@marwadieducation.edu.in.
+[2025-05-12 14:11:14.467 +05:30] [INF] LowStockCheckService will check again after "24.00:00:00"
+[2025-05-12 14:11:50.851 +05:30] [INF] User logged in successfully: harsh@gmail.com
+[2025-05-12 14:12:10.191 +05:30] [INF] Fetched 4 categories.
+[2025-05-12 14:12:44.083 +05:30] [INF] Creating stock purchase order for VendorId: 1 by UserId: 2
+[2025-05-12 14:12:44.159 +05:30] [WRN] Product not found for ProductId: 10
+[2025-05-12 14:14:40.233 +05:30] [INF] Creating stock purchase order for VendorId: 1 by UserId: 2
+[2025-05-12 14:14:40.564 +05:30] [INF] Stock purchase order created successfully for VendorId: 1
+[2025-05-12 14:14:40.572 +05:30] [WRN] Product price mismatch for ProductId: 5
+[2025-05-12 14:17:04.946 +05:30] [INF] Starting up the application...
+[2025-05-12 14:17:06.094 +05:30] [INF] LowStockCheckService started.
+[2025-05-12 14:17:06.101 +05:30] [INF] Checking for low-stock products at "2025-05-12T08:47:06.0967826Z"
+[2025-05-12 14:17:11.514 +05:30] [INF] Low stock email sent for 2 products to harsh.soni18553@marwadieducation.edu.in.
+[2025-05-12 14:17:11.520 +05:30] [INF] LowStockCheckService will check again after "24.00:00:00"
+[2025-05-12 14:17:47.018 +05:30] [INF] Creating stock purchase order for VendorId: 1 by UserId: 2
+[2025-05-12 14:17:47.431 +05:30] [INF] Stock purchase order created successfully for VendorId: 1
+[2025-05-12 14:17:47.436 +05:30] [WRN] Product price mismatch for ProductId: 5
+[2025-05-12 14:18:18.094 +05:30] [INF] Fetching stock purchase order details for OrderId: 8
+[2025-05-12 14:18:18.326 +05:30] [INF] Successfully fetched stock purchase order details for OrderId: 8
+[2025-05-12 14:33:18.283 +05:30] [INF] Starting up the application...
+[2025-05-12 14:33:19.452 +05:30] [INF] LowStockCheckService started.
+[2025-05-12 14:33:19.462 +05:30] [INF] Checking for low-stock products at "2025-05-12T09:03:19.4550596Z"
+[2025-05-12 14:33:24.994 +05:30] [INF] Low stock email sent for 2 products to harsh.soni18553@marwadieducation.edu.in.
+[2025-05-12 14:33:25.002 +05:30] [INF] LowStockCheckService will check again after "24.00:00:00"
+[2025-05-12 14:34:05.705 +05:30] [INF] Fetching orders between dates: 1/2025 - 5/2025
+[2025-05-12 14:34:05.925 +05:30] [INF] Fetched 6 orders
+[2025-05-12 14:34:18.944 +05:30] [INF] Fetching orders between dates: 1/2025 - 6/2025
+[2025-05-12 14:34:18.946 +05:30] [WRN] Invalid month input
+[2025-05-12 14:34:34.753 +05:30] [INF] Fetching orders between dates: 1/2025 - 6/2026
+[2025-05-12 14:34:34.771 +05:30] [WRN] Invalid month input
+[2025-05-12 14:44:19.991 +05:30] [INF] Starting up the application...
+[2025-05-12 14:44:21.135 +05:30] [INF] LowStockCheckService started.
+[2025-05-12 14:44:21.141 +05:30] [INF] Checking for low-stock products at "2025-05-12T09:14:21.1370720Z"
+[2025-05-12 14:44:26.581 +05:30] [INF] Low stock email sent for 2 products to harsh.soni18553@marwadieducation.edu.in.
+[2025-05-12 14:44:26.590 +05:30] [INF] LowStockCheckService will check again after "24.00:00:00"
+[2025-05-12 14:57:23.670 +05:30] [INF] Starting up the application...
+[2025-05-12 14:57:24.741 +05:30] [INF] LowStockCheckService started.
+[2025-05-12 14:57:24.749 +05:30] [INF] Checking for low-stock products at "2025-05-12T09:27:24.7429188Z"
+[2025-05-12 14:57:26.362 +05:30] [INF] No low-stock products found.
+[2025-05-12 14:57:26.367 +05:30] [INF] LowStockCheckService will check again after "24.00:00:00"
+[2025-05-12 14:58:17.777 +05:30] [INF] Starting up the application...
+[2025-05-12 14:58:18.751 +05:30] [INF] LowStockCheckService started.
+[2025-05-12 14:58:18.758 +05:30] [INF] Checking for low-stock products at "2025-05-12T09:28:18.7533472Z"
+[2025-05-12 14:58:20.377 +05:30] [INF] No low-stock products found.
+[2025-05-12 14:58:20.383 +05:30] [INF] LowStockCheckService will check again after "24.00:00:00"
+[2025-05-12 14:58:58.167 +05:30] [INF] Starting up the application...
+[2025-05-12 14:58:59.261 +05:30] [INF] LowStockCheckService started.
+[2025-05-12 14:58:59.269 +05:30] [INF] Checking for low-stock products at "2025-05-12T09:28:59.2641041Z"
+[2025-05-12 14:59:00.972 +05:30] [INF] No low-stock products found.
+[2025-05-12 14:59:00.976 +05:30] [INF] LowStockCheckService will check again after "24.00:00:00"
+[2025-05-12 15:02:17.783 +05:30] [INF] Starting up the application...
+[2025-05-12 15:02:18.838 +05:30] [INF] LowStockCheckService started.
+[2025-05-12 15:02:18.848 +05:30] [INF] Checking for low-stock products at "2025-05-12T09:32:18.8415961Z"
+[2025-05-12 15:02:20.526 +05:30] [INF] No low-stock products found.
+[2025-05-12 15:02:20.531 +05:30] [INF] LowStockCheckService will check again after "24.00:00:00"
+[2025-05-12 15:08:10.648 +05:30] [INF] Starting up the application...
+[2025-05-12 15:08:11.808 +05:30] [INF] LowStockCheckService started.
+[2025-05-12 15:08:11.817 +05:30] [INF] Checking for low-stock products at "2025-05-12T09:38:11.8109944Z"
+[2025-05-12 15:08:13.359 +05:30] [INF] No low-stock products found.
+[2025-05-12 15:08:13.364 +05:30] [INF] LowStockCheckService will check again after "24.00:00:00"
+[2025-05-12 15:09:00.798 +05:30] [INF] Fetching orders for UserId 2 between 1/2023 and 3/2024
+[2025-05-12 15:09:00.951 +05:30] [INF] Retrieved 0 orders for user 2
+[2025-05-12 15:12:42.327 +05:30] [INF] Starting up the application...
+[2025-05-12 15:12:43.479 +05:30] [INF] LowStockCheckService started.
+[2025-05-12 15:12:43.488 +05:30] [INF] Checking for low-stock products at "2025-05-12T09:42:43.4821840Z"
+[2025-05-12 15:12:45.162 +05:30] [INF] No low-stock products found.
+[2025-05-12 15:12:45.168 +05:30] [INF] LowStockCheckService will check again after "24.00:00:00"
+[2025-05-12 15:13:19.731 +05:30] [INF] Fetching orders for UserId 2 between 1/2023 and 6/2024
+[2025-05-12 15:13:19.737 +05:30] [WRN] Future month input
+[2025-05-12 15:18:33.422 +05:30] [INF] Fetching orders for UserId 2 between 1/2023 and 6/2024
+[2025-05-12 15:18:33.424 +05:30] [WRN] Future month input
+[2025-05-12 15:18:52.339 +05:30] [INF] Starting up the application...
+[2025-05-12 15:18:53.414 +05:30] [INF] LowStockCheckService started.
+[2025-05-12 15:18:53.425 +05:30] [INF] Checking for low-stock products at "2025-05-12T09:48:53.4186563Z"
+[2025-05-12 15:18:55.051 +05:30] [INF] No low-stock products found.
+[2025-05-12 15:18:55.058 +05:30] [INF] LowStockCheckService will check again after "24.00:00:00"
+[2025-05-12 15:19:23.186 +05:30] [INF] Fetching orders for UserId 2 between 1/2023 and 7/2024
+[2025-05-12 15:20:36.276 +05:30] [INF] Retrieved 0 orders for user 2
+[2025-05-12 15:21:00.254 +05:30] [INF] Fetching orders for UserId 2 between 9/2023 and 10/2024
+[2025-05-12 15:22:46.355 +05:30] [INF] Starting up the application...
+[2025-05-12 15:22:47.421 +05:30] [INF] LowStockCheckService started.
+[2025-05-12 15:22:47.430 +05:30] [INF] Checking for low-stock products at "2025-05-12T09:52:47.4235708Z"
+[2025-05-12 15:22:49.041 +05:30] [INF] No low-stock products found.
+[2025-05-12 15:22:49.048 +05:30] [INF] LowStockCheckService will check again after "24.00:00:00"
+[2025-05-12 15:23:37.113 +05:30] [INF] Fetching orders between dates: 9/2023 - 9/2024
+[2025-05-12 15:32:21.381 +05:30] [INF] Starting up the application...
+[2025-05-12 15:32:22.468 +05:30] [INF] LowStockCheckService started.
+[2025-05-12 15:32:22.476 +05:30] [INF] Checking for low-stock products at "2025-05-12T10:02:22.4713702Z"
+[2025-05-12 15:32:23.974 +05:30] [INF] No low-stock products found.
+[2025-05-12 15:32:23.978 +05:30] [INF] LowStockCheckService will check again after "24.00:00:00"
+[2025-05-12 15:32:45.768 +05:30] [INF] User logged in successfully: harsh@gmail.com
+[2025-05-12 15:40:38.398 +05:30] [INF] Starting up the application...
+[2025-05-12 15:40:39.539 +05:30] [INF] LowStockCheckService started.
+[2025-05-12 15:40:39.546 +05:30] [INF] Checking for low-stock products at "2025-05-12T10:10:39.5412465Z"
+[2025-05-12 15:40:41.231 +05:30] [INF] No low-stock products found.
+[2025-05-12 15:40:41.236 +05:30] [INF] LowStockCheckService will check again after "24.00:00:00"
+[2025-05-12 15:41:27.234 +05:30] [INF] Starting up the application...
+[2025-05-12 15:41:28.356 +05:30] [INF] LowStockCheckService started.
+[2025-05-12 15:41:28.362 +05:30] [INF] Checking for low-stock products at "2025-05-12T10:11:28.3582599Z"
+[2025-05-12 15:41:29.892 +05:30] [INF] No low-stock products found.
+[2025-05-12 15:41:29.896 +05:30] [INF] LowStockCheckService will check again after "24.00:00:00"
+[2025-05-12 16:11:54.341 +05:30] [INF] Starting up the application...
+[2025-05-12 16:11:55.392 +05:30] [INF] LowStockCheckService started.
+[2025-05-12 16:11:55.401 +05:30] [INF] Checking for low-stock products at "2025-05-12T10:41:55.3948079Z"
+[2025-05-12 16:11:56.983 +05:30] [INF] No low-stock products found.
+[2025-05-12 16:11:56.987 +05:30] [INF] LowStockCheckService will check again after "24.00:00:00"
+[2025-05-12 16:11:58.163 +05:30] [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Product/search-by-category" for actions - InventoryManagementSystem.Controllers.ProductController.SearchProductsByCategory (InventoryManagementSystem),InventoryManagementSystem.Controllers.ProductController.SearchProductsById (InventoryManagementSystem). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2025-05-12 16:13:13.621 +05:30] [INF] Starting up the application...
+[2025-05-12 16:13:14.702 +05:30] [INF] LowStockCheckService started.
+[2025-05-12 16:13:14.708 +05:30] [INF] Checking for low-stock products at "2025-05-12T10:43:14.7038848Z"
+[2025-05-12 16:13:16.317 +05:30] [INF] No low-stock products found.
+[2025-05-12 16:13:16.325 +05:30] [INF] LowStockCheckService will check again after "24.00:00:00"
+[2025-05-12 16:14:16.498 +05:30] [INF] User logged in successfully: harsh@gmail.com
+[2025-05-12 16:15:17.080 +05:30] [INF] Starting up the application...
+[2025-05-12 16:15:18.078 +05:30] [INF] LowStockCheckService started.
+[2025-05-12 16:15:18.084 +05:30] [INF] Checking for low-stock products at "2025-05-12T10:45:18.0803839Z"
+[2025-05-12 16:15:19.613 +05:30] [INF] No low-stock products found.
+[2025-05-12 16:15:19.617 +05:30] [INF] LowStockCheckService will check again after "24.00:00:00"

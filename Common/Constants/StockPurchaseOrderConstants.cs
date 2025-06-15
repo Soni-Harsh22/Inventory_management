@@ -1,0 +1,29 @@
+﻿namespace InventoryManagementSystem.Common.Constants
+{
+    public static class StockPurchaseOrderConstants
+    {
+        public const string VENDOR_NOT_FOUND = "VENDOR NOT FOUND.";
+        public const string STOCK_PURCHASE_ORDER_CREATED = "STOCK PURCHASE ORDER CREATED SUCCESSFULLY.";
+        public const string ERROR_CREATING_STOCK_PURCHASE_ORDER = "ERROR CREATING STOCK PURCHASE ORDER";
+        public const string STOCK_PURCHASE_ORDER_NOT_FOUND = "STOCK PURCHASE ORDER NOT FOUND.";
+        public const string STOCK_PURCHASE_ORDER_RECEIVED = "STOCK PURCHASE ORDER MARKED AS RECEIVED AND INVENTORY UPDATED.";
+        public const string STOCK_PURCHASE_ORDER_CANCELLED = "STOCK PURCHASE ORDER MARKED AS CANCELLED";
+        public const string BAD_REQUEST = "BAD REQUEST";
+        public const string ERROR_UPDATING_ORDER_STATUS = "ERROR UPDATING ORDER STATUS";
+        public const string ORDER_NOT_FOUND = "ORDER NOT FOUND";
+        public const string FETCH_PURCHASE_ORDER_DETAIL = "FETCH PURCHASED ORDER DETIAL";
+        public const string INVALID_MONTH = "INVALID MONTH. PLEASE PROVIDE VALUES BETWEEN 1 AND 12.";
+        public const string FUTURE_MONTH = "INVALID MONTH. YOU HAVE PROVIDED FUTURE MONTH.";
+        public const string FUTURE_YEAR = "YEAR CANNOT BE IN THE FUTURE.";
+        public const string INVALID_DATE_RANGE = "FROM DATE CANNOT BE AFTER TO DATE.";
+        public const string STOCK_PURCHASE_ORDER_FULLY_RECEIVED = "STOCK PURCHASE ORDER FULLY RECEIVED.";
+        public const string NO_PRODUCT_IDS_PROVIDED = "NO PRODUCTIDS PROVIDED FOR INCOMPLETE STATUS.";
+        public const string STOCK_PURCHASE_ORDER_INCOMPLETE = "STOCK PURCHASE ORDER MARKED AS INCOMPLETE WITH PARTIAL RECEIPT.";
+        public const string INVALID_STATUS_VALUE = "INVALID STATUS VALUE.";
+        public const string ERROR_UPDATING_STOCK_PURCHASE_ORDER = "ERROR UPDATING STOCK PURCHASE ORDER";
+        public static string PURCHASE_PRICE_GREATER_PRODUCTPRICE = "STOCK PURCHASE ORDER CREATED SUCCESSFULLY. PURCHASING PRICE GREATER THEN SELLING PRICE REMEMBER TO UPDATE PRODUCT PRICE";
+        public static string PRODUCT_NOT_FOUND = "PRODUCT DOEST NOT FOUND";
+        public static string ORDER_NOT_FOUND_FOR_DATES = "No orders found between the specified dates";
+        public static string ALREADY_RETURN_CANCLE = "This Product is already Returned or Cancled";
+    }
+}
