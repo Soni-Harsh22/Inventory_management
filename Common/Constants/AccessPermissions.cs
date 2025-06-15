@@ -9,4 +9,5 @@ namespace InventoryManagementSystem.Common.Constants
         public const string ALL = "Admin, Customer, Employee";
     }
 }
-// this is my first branch from the main branch
+// this is my RC1 first branch from the main branch
+// this is my second RC2 branch from the main branch
